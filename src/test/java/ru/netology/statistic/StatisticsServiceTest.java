@@ -20,6 +20,7 @@ public class StatisticsServiceTest {
 
 
 
+
     @Test
     void findMaxIfFirstIncomeIsNotEqual12() {
         StatisticsService service = new StatisticsService();
@@ -30,4 +31,5 @@ public class StatisticsServiceTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
 }
